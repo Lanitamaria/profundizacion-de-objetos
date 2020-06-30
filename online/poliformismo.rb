@@ -1,20 +1,22 @@
 class Animal
-    def hablar
-        if self.class == Perro
-        puts 'Guau'
-        elsif self.class == Gato
-        puts 'Miau'
-        elsif self.class == Vaca
-        puts 'Muuu'
-        end
-    end
 end
 
 class Perro < Animal
+    def hablar
+        puts 'Guau'
+    end
 end
+
 class Gato < Animal
+    def hablar
+        puts 'Miau'
+    end
 end
+
 class Vaca < Animal
+    def hablar
+        puts 'Muuu'
+    end
 end
 
 Perro.new.hablar # Guau

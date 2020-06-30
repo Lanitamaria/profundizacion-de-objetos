@@ -3,6 +3,7 @@ module Nadador
         puts 'Puedo nadar!'
     end
 end
+
 module Carnivoro
     def comer
         puts 'Puedo comer carne!'
